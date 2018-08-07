@@ -106,7 +106,7 @@
 										<div class="tab-pane fade {if $ssr_prefer}active in{/if}" id="ssr_download">
 											{if URL::SSRCanConnect($user, $mu)}
 												<p><i class="icon icon-lg">desktop_windows</i>&nbsp;<a href="/ssr-download/ssr-win.7z">Windows</a></p>
-												<p><i class="icon icon-lg">laptop_mac</i>&nbsp;<a href="/ssr-download/ssr-mac.dmg">Mac OS X</a></p>
+												<p><i class="icon icon-lg">laptop_mac</i>&nbsp;<a href="/ssr-download/ssr-mac.zip">Mac OS X</a></p>
 												<p><i class="icon icon-lg">laptop_windows</i>&nbsp;<a href="https://github.com/breakwa11/shadowsocks-rss/wiki/Python-client">Linux</a></p>
 												<p><i class="icon icon-lg">android</i>&nbsp;<a href="/ssr-download/ssr-android.apk">Android</a></p>
 												<p><i class="icon icon-lg">phone_iphone</i>&nbsp;<a href="https://itunes.apple.com/us/app/shadowrocket/id932747118">iOS</a></p>
